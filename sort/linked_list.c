@@ -82,7 +82,6 @@ void freeLinkedList(LinkedList* list) {
         curr = curr->next;
         free(temp);
     }
-
 }
 
 int main() {
